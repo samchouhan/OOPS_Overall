@@ -19,6 +19,11 @@ class manager(Employee):
     def __init__(self,name,salary,Teamsize):
         self.Teamsize=Teamsize
         super().__init__(name,salary)
+    def display_info(Self):
+        super().display_info()
+        print("Team Size:",Self.Teamsize)
+        
         
 e1=Employee("Patrick Jane",50)
 e1.display_info()
+
