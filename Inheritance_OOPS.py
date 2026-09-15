@@ -32,4 +32,4 @@ m1=manager("Bob Johnson",80000,10)
 d2=Developer("Charlie Brown",70000,"Java")
 m2=manager("David Wilson",90000,15)
 
-empl
+employees=[d1,m1,d2,m2]
