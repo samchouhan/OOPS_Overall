@@ -1,10 +1,10 @@
 class Employee:
     def __init__(Self,name,salary):
-        Self.__name=name#private attribute
-        Self.__salary=salary#private attribute
+        Self.name=name#private attribute
+        Self.salary=salary#private attribute
     def display_info(Self):
-        print("Name:",Self.__name)
-        print("Salary:",Self.__salary)
+        print("Name:",Self.name)
+        print("Salary:",Self.salary)
 class Developer(Employee):
     def __init__(self,name,salary,language):
         self.language=language
