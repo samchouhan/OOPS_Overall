@@ -10,6 +10,10 @@ class Developer(Employee):
         self.language=language
         super().__init__(name,salary)
         
+    def display_info(Self):
+        super().display_info()
+        print("Programming Language:",Self.language)
+        
         
 class manager(Employee):
     def __init__(self,name,salary,Teamsize):
