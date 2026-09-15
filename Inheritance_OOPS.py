@@ -2,7 +2,7 @@ class Employee:
     def __init__(Self,name,salary):
         Self.name=name#private attribute
         Self.salary=salary#private attribute
-    def display_info(Self):
+    def display_info(Self):#To display the given attributes of the classes to the user a data.
         print("Name:",Self.name)
         print("Salary:",Self.salary)
 class Developer(Employee):
