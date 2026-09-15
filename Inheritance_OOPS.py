@@ -34,6 +34,6 @@ m2=manager("David Wilson",90000,15)
 
 employees=[d1,m1,d2,m2]
 
-for employee in employees:
+for employee in employees:#With this for loop blcok we can now manage many employees data withing a list system , this list will keep updating and we will know the present employess of the company.
     employee.display_info()
     
