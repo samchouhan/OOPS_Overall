@@ -27,3 +27,9 @@ class manager(Employee):
 e1=Employee("Patrick Jane",50)
 e1.display_info()
 
+d1=Developer("Alice Smith",60000,"Python")
+m1=manager("Bob Johnson",80000,10)
+d2=Developer("Charlie Brown",70000,"Java")
+m2=manager("David Wilson",90000,15)
+
+empl
