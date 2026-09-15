@@ -33,3 +33,7 @@ d2=Developer("Charlie Brown",70000,"Java")
 m2=manager("David Wilson",90000,15)
 
 employees=[d1,m1,d2,m2]
+
+for employee in employees:
+    employee.display_info()
+    
