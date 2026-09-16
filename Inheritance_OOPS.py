@@ -5,6 +5,9 @@ class Employee:
     def display_info(Self):#To display the given attributes of the classes to the user a data.
         print("Name:",Self.name)
         print("Salary:",Self.salary)
+        
+    def show_name(Self):
+        print(sorted([Self.name]))
 class Developer(Employee):
     def __init__(self,name,salary,language):
         self.language=language
@@ -37,5 +40,7 @@ employees=[d1,m1,d2,m2]
 for employee in employees:#With this for loop blcok we can now manage many employees data withing a list system , this list will keep updating and we will know the present employess of the company.
     employee.display_info()
     
+    
+ 
     
 #We can also add methods to add or delete employess from the comapny list, and also we can add methods to update the employee data.
